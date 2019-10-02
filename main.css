@@ -1,0 +1,168 @@
+body {margin: 0;}
+body {
+background: linear-gradient(to bottom right, #b7effb, #c49bdf);
+font-family: 'EB Garamond', serif;
+}
+h1 {
+color: #eeac99;
+text-shadow: 2px 2px white;
+font-size: 100px; 
+font-style: oblique;
+position: relative;
+bottom: 30px;
+left: 185px;
+}
+#tofu-logo {
+height: 120px;
+width: 10%;
+bottom: 380px;
+position: relative;
+left: 10px;
+}
+h2 {
+position: relative;
+bottom: 80px;
+left: 10px;
+font-size: 30px;
+color: #ff6f69;
+font-style: oblique;
+}
+#overview {
+position: relative;
+bottom: 100px;
+left: 190px;
+font-family: sans-serif;
+color: white;
+}
+#tofu-1 {
+position: relative;
+bottom: 190px;
+right: 150px;
+height: 130px;
+width: 10%;
+}
+#nutrition-facts {
+position: relative;
+bottom: 160px;
+}
+#table {
+position: relative;
+bottom: 180px;
+left: 10px;
+font-style: oblique;
+border: 5px solid #f97c7c;
+height: 50px;
+width:99%;
+}
+#amount-per {
+position: relative;
+bottom: 190px;
+font-size: 20px;
+color: #f97c7c; 
+}
+.1, .2, .3, .4 {
+display: inline-block;
+}
+h3 {
+color:	#ee6969;
+}
+#contact {
+bottom: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 99%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #b88a9f; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #fadbe0;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #554562;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #aec8ce;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+/* Navigation Bar */
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #d6d4e0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #622569;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 9000px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+/* Navigation Bar End */
